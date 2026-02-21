@@ -210,6 +210,7 @@ export class AutoModelForTextToWaveform extends PretrainedMixin {
  *
  * @example
  * const model = await AutoModelForCausalLM.from_pretrained('Xenova/gpt2');
+ * @returns {Promise<any>}
  */
 export class AutoModelForCausalLM extends PretrainedMixin {
     static MODEL_CLASS_MAPPINGS = [MODEL_MAPPINGS.MODEL_FOR_CAUSAL_LM_MAPPING_NAMES];

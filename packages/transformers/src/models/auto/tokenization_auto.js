@@ -36,7 +36,7 @@ export class AutoTokenizer {
      * - A path to a *directory* containing tokenizer files, e.g., `./my_model_directory/`.
      * @param {import('../../tokenization_utils.js').PretrainedTokenizerOptions} options Additional options for loading the tokenizer.
      *
-     * @returns {Promise<PreTrainedTokenizer>} A new instance of the PreTrainedTokenizer class.
+     * @returns {Promise<any>} A new instance of the PreTrainedTokenizer class.
      */
     static async from_pretrained(
         pretrained_model_name_or_path,
